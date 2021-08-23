@@ -1,4 +1,9 @@
 """
+Files in folder `manopth/` are from https://github.com/hassony2/manopth/tree/master/manopth
+We modify manolayer.py to facilitate training the network.
+Thanks to Yana Hasson for the excellent work.
+"""
+"""
 This part reuses code from https://github.com/MandyMo/pytorch_HMR/blob/master/src/util.py
 which is part of a PyTorch port of SMPL.
 Thanks to Zhang Xiong (MandyMo) for making this great code available on github !

@@ -6,7 +6,7 @@ This repository contains the model of our paper "Interacting Two-Hand 3D Pose an
 
 ![prediction example](teaser.png)
 
-# Installation:
+# Installation
 Our code is tested with Cuda 11.1.
 ## 1.Clone this repository.
 ```
@@ -21,12 +21,12 @@ conda activate intershape
 pip install --upgrade pip
 pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
 ```
-## Download models
+# Download models
 Download pre-trained model [model.pts]() and put it into folder `model/`.
 
 Download the MANO model files from [MANO](https://mano.is.tue.mpg.de/). Unzip `mano_v1_2.zip` under `${TWO_HAND}` and rename the unzipped folder as `mano/`.
 
-## Running the code
+# Running the code
 ```
 python test.py --test_folder test_data --model_path model/model.pts
 ```

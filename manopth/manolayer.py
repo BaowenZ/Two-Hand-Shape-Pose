@@ -1,3 +1,8 @@
+"""
+Files in folder `manopth/` are from https://github.com/hassony2/manopth/tree/master/manopth
+We modify manolayer.py to facilitate training the network.
+Thanks to Yana Hasson for the excellent work.
+"""
 import os
 
 import numpy as np

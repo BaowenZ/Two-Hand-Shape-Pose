@@ -1,3 +1,8 @@
+"""
+This part reuses code from https://github.com/hassony2/handobjectconsist/blob/master/meshreg/models/manobranch.py
+Thanks to Yana Hasson for the excellent work.
+"""
+
 import numpy as np
 import torch
 from torch import nn

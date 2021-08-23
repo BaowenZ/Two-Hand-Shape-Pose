@@ -1,3 +1,7 @@
+"""
+This part reuses code from https://github.com/hassony2/handobjectconsist/blob/master/meshreg/models/meshregnet.py
+Thanks to Yana Hasson for the excellent work.
+"""
 import torch
 from torch import nn
 
