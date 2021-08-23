@@ -69,7 +69,7 @@ class MeshRegNet(nn.Module):
                     ncomps=mano_comps,
                     center_idx=9,
                     side='right',
-                    mano_root='mano_model',
+                    mano_root='mano/models',
                     use_pca=mano_use_pca,
                     flat_hand_mean=False,
                 ),
@@ -77,7 +77,7 @@ class MeshRegNet(nn.Module):
                     ncomps=mano_comps,
                     center_idx=9,
                     side='left',
-                    mano_root='mano_model',
+                    mano_root='mano/models',
                     use_pca=mano_use_pca,
                     flat_hand_mean=False,
                 )

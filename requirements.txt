@@ -1,0 +1,5 @@
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
+opencv_python
+tqdm
+chumpy
