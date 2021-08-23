@@ -1,4 +1,4 @@
-#Interacting Two-Hand 3D Pose and Shape Reconstruction from Single Color Image
+# Interacting Two-Hand 3D Pose and Shape Reconstruction from Single Color Image
 
 This repository contains the model of our paper "Interacting Two-Hand 3D Pose and Shape Reconstruction from Single Color Image".
 
