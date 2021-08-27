@@ -1,6 +1,9 @@
 # Interacting Two-Hand 3D Pose and Shape Reconstruction from Single Color Image
+
 ### Interacting Two-Hand 3D Pose and Shape Reconstruction from Single Color Image
 Baowen Zhang, Yangang Wang, Xiaoming Deng*, Yinda Zhang*, Ping Tan, Cuixia Ma and Hongan Wang
+
+
 
 This repository contains the model of the ICCV'2021 paper "Interacting Two-Hand 3D Pose and Shape Reconstruction from Single Color Image".
 
