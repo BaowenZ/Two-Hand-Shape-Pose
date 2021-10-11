@@ -1,7 +1,7 @@
 """
 Files in folder `manopth/` are from https://github.com/hassony2/manopth/tree/master/manopth
 We modify manolayer.py to facilitate training the network.
-Thanks to Yana Hasson for the excellent work.
+We thank Yana Hasson for the excellent work.
 """
 from matplotlib import pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
