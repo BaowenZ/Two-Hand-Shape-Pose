@@ -28,7 +28,7 @@ pip install --upgrade pip
 pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
 ```
 # 2.Download models
-Download pre-trained model [model.pts]() and put it into folder `model/`.
+Download pre-trained model [model.pts](https://drive.google.com/drive/folders/1cQz7uOMzhsACPb86lMrVAJnACF4-h3Q7?usp=sharing) and put it into folder `model/`.
 
 Download the MANO model files from [MANO](https://mano.is.tue.mpg.de/). Unzip `mano_v1_2.zip` under `${TWO_HAND}` and rename the unzipped folder as `mano/`.
 
