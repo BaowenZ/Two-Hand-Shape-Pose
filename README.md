@@ -52,6 +52,6 @@ Please consider citing the paper if you use this code.
 # 4. Acknowledgement
 We use part of the great code from [InterNet](https://mks0601.github.io/InterHand2.6M/) and [mano layer](https://github.com/hassony2/manopth).
 
-Samples in `test_data/` are from [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/). 
+Image samples in `test_data/` are from [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/). 
 
 We thank the authors of InterNet, InterHand2.6M and mano layer for their great work.
