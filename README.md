@@ -39,8 +39,6 @@ python test.py --test_folder test_data --model_path model/model.pts
 Our model predicts hand meshes from images in `test_data/`. The estimated meshes are saved as obj files in `test_data/`.
 Samples in `test_data/` are from [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/). We thank them for excellent works.
 
-In this repository, we use part of the great code from [InterNet](https://mks0601.github.io/InterHand2.6M/) and [mano layer](https://github.com/hassony2/manopth).
-
 #### Citation
 Please consider citing the paper if you use this code.
 ```
@@ -51,3 +49,6 @@ Please consider citing the paper if you use this code.
       year={2021} 
 } 
 ```
+
+# 4. Acknowledgement
+We use part of the great code from [InterNet](https://mks0601.github.io/InterHand2.6M/) and [mano layer](https://github.com/hassony2/manopth).
