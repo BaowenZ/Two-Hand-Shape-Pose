@@ -54,4 +54,4 @@ We use part of the great code from [InterNet](https://mks0601.github.io/InterHan
 
 Samples in `test_data/` are from [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/). 
 
-We thank the authors of [InterNet], [InterHand2.6M] and [mano layer] for their great work.
+We thank the authors of InterNet, InterHand2.6M and mano layer for their great work.
