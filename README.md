@@ -11,6 +11,7 @@ This repository contains the model of the ICCV'2021 paper "Interacting Two-Hand 
 
 We propose a novel deep learning framework to reconstruct 3D hand poses and shapes of two interacting hands from a single color image. Previous methods designed for single hand cannot be easily applied for the two hand scenario because of the heavy inter-hand occlusion and larger solution space. In order to address the occlusion and similar appearance between hands that may confuse the network, we design a hand pose-aware attention module to extract features associated to each individual hand respectively. We then leverage the two hand context presented in interaction and propose a context-aware cascaded refinement that improves the hand pose and shape accuracy of each hand conditioned on the context between interacting hands. Extensive experiments on the main benchmark datasets demonstrate that our method predicts accurate 3D hand pose and shape from single color image, and achieves the state-of-the-art performance.
 
+Our model is trained and tested on InterHand2.6M v0 dataset. We use color images with MANO annotations to train our model. Samples without middle finger's MCP joint or root joint are not used during training and testing because we use these joints for alignment. Model trained on InterHand2.6M v1 will be released in the future.
 
 # 1.Installation
 This code is tested with Cuda 11.1.
