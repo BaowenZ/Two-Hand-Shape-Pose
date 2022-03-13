@@ -3,11 +3,11 @@
 ### Interacting Two-Hand 3D Pose and Shape Reconstruction from Single Color Image
 Baowen Zhang, Yangang Wang, Xiaoming Deng*, Yinda Zhang*, Ping Tan, Cuixia Ma and Hongan Wang
 
-[Project page](https://baowenz.github.io/Intershape/)
+[Project page](https://baowenz.github.io/Intershape/)   &nbsp;  &nbsp;  &nbsp;  [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Interacting_Two-Hand_3D_Pose_and_Shape_Reconstruction_From_Single_Color_ICCV_2021_paper.pdf)   &nbsp;  &nbsp;  &nbsp;  [Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Zhang_Interacting_Two-Hand_3D_ICCV_2021_supplemental.pdf)
 
 ![prediction example](teaser.png)
 
-This repository contains the model of the ICCV'2021 paper "Interacting Two-Hand 3D Pose and Shape Reconstruction from Single Color Image".
+This repository contains the model of the ICCV'2021 paper ["Interacting Two-Hand 3D Pose and Shape Reconstruction from Single Color Image"](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Interacting_Two-Hand_3D_Pose_and_Shape_Reconstruction_From_Single_Color_ICCV_2021_paper.pdf).
 
 We propose a novel deep learning framework to reconstruct 3D hand poses and shapes of two interacting hands from a single color image. Previous methods designed for single hand cannot be easily applied for the two hand scenario because of the heavy inter-hand occlusion and larger solution space. In order to address the occlusion and similar appearance between hands that may confuse the network, we design a hand pose-aware attention module to extract features associated to each individual hand respectively. We then leverage the two hand context presented in interaction and propose a context-aware cascaded refinement that improves the hand pose and shape accuracy of each hand conditioned on the context between interacting hands. Extensive experiments on the main benchmark datasets demonstrate that our method predicts accurate 3D hand pose and shape from single color image, and achieves the state-of-the-art performance.
 
@@ -38,10 +38,8 @@ Download the MANO model files from [MANO](https://mano.is.tue.mpg.de/). Unzip `m
 python test.py --test_folder test_data --model_path model/model.pts
 ```
 Our model predicts hand meshes from images in `test_data/`. The estimated meshes are saved as obj files in `test_data/`.
-Samples in `test_data/` are from [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/). We thank them for excellent works.
 
-We fork code [InterNet](https://mks0601.github.io/InterHand2.6M/) and [mano layer](https://github.com/hassony2/manopth).
-#### Citation
+# 4.Citation
 Please consider citing the paper if you use this code.
 ```
 @inproceedings{Zhang2021twohand, 
@@ -51,3 +49,18 @@ Please consider citing the paper if you use this code.
       year={2021} 
 } 
 ```
+
+# 5.Acknowledgement
+We use part of the great code from [InterNet](https://mks0601.github.io/InterHand2.6M/) and [mano layer](https://github.com/hassony2/manopth).
+
+Image samples in `test_data/` are from [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/). 
+
+We thank the authors of InterNet, InterHand2.6M and mano layer for their great work.
+
+# 6.Contact Information
+For any questions, feel free to contact: 947976219@qq.com, xiaoming@iscas.ac.cn
+
+
+
+
+
