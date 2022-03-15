@@ -11,8 +11,6 @@ This repository contains the model of the ICCV'2021 paper ["Interacting Two-Hand
 
 We propose a novel deep learning framework to reconstruct 3D hand poses and shapes of two interacting hands from a single color image. Previous methods designed for single hand cannot be easily applied for the two hand scenario because of the heavy inter-hand occlusion and larger solution space. In order to address the occlusion and similar appearance between hands that may confuse the network, we design a hand pose-aware attention module to extract features associated to each individual hand respectively. We then leverage the two hand context presented in interaction and propose a context-aware cascaded refinement that improves the hand pose and shape accuracy of each hand conditioned on the context between interacting hands. Extensive experiments on the main benchmark datasets demonstrate that our method predicts accurate 3D hand pose and shape from single color image, and achieves the state-of-the-art performance.
 
-Our model is trained and tested on InterHand2.6M v0 dataset. We use color images with MANO annotations to train our model. Samples without middle finger's MCP joint or root joint are not used during training and testing because we use these joints for alignment. Model trained on InterHand2.6M v1 will be released in the future.
-
 # 1.Installation
 This code is tested with Cuda 11.1.
 ## Clone this repository.
@@ -39,7 +37,12 @@ python test.py --test_folder test_data --model_path model/model.pts
 ```
 Our model predicts hand meshes from images in `test_data/`. The estimated meshes are saved as obj files in `test_data/`.
 
-# 4.Citation
+# 4. A Note on Evaluation
+
+Our model is trained and tested on InterHand2.6M v0 dataset. We use color images with MANO annotations to train our model. Samples without middle finger's MCP joint or root joint are not used during training and testing because we use these joints for alignment. Model trained on InterHand2.6M v1 will be released in the future.
+
+
+# 5.Citation
 Please consider citing the paper if you use this code.
 ```
 @inproceedings{Zhang2021twohand, 
@@ -50,14 +53,14 @@ Please consider citing the paper if you use this code.
 } 
 ```
 
-# 5.Acknowledgement
+# 6.Acknowledgement
 We use part of the great code from [InterNet](https://mks0601.github.io/InterHand2.6M/) and [mano layer](https://github.com/hassony2/manopth).
 
 Image samples in `test_data/` are from [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/). 
 
 We thank the authors of InterNet, InterHand2.6M and mano layer for their great work.
 
-# 6.Contact Information
+# 7.Contact Information
 For any questions, feel free to contact: 947976219@qq.com, xiaoming@iscas.ac.cn
 
 
